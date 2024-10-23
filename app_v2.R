@@ -43,7 +43,7 @@ ui <- fluidPage(
   titlePanel(
     div(
       img(src = "idea.png", height = "100px", width = "100px"), 
-      "Invariate"
+      "LunaRa"
     )
   ),
   add_busy_gif(src = "https://media2.giphy.com/media/7aqTC87afdWGXF3o8T/giphy.gif?cid=ecf05e475vgr4jui6uha1neqjhfbpsqwsa6fwklob3kzcns1&ep=v1_gifs_related&rid=giphy.gif&ct=s",
@@ -59,7 +59,7 @@ ui <- fluidPage(
                   choices = NULL, selected = NULL, multiple = TRUE),
       br(),
       h4("Information"),
-      p("Invariate is a light-weight web application to annotate genomic variants, find pharmacogenomic interactions, and construct a protein-protein interaction network based on genes with variants and their first neighbours."),
+      p("LunaRa is a light-weight web application to annotate genomic variants, find pharmacogenomic interactions, and construct a protein-protein interaction network based on genes with variants and their first neighbours."),
       p("Developed by Idea Technology Solutions.")
     ),
     mainPanel(
